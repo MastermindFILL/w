@@ -1,0 +1,87 @@
+
+body{
+    background-color: antiquewhite;
+    color:black;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    width: 600px;
+    margin: auto;
+
+}
+.sugon{
+    font-size: 19px;
+    border: 2px red solid;
+
+    margin: 20px 0;
+    font-family: Tohoma;
+    font-weight: 800;
+    font-style:italic;
+    text-decoration: underline;
+    letter-spacing: .1em;
+
+    padding: 20px;
+}
+
+.poo{
+    border: 1px #ccc solid;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.poo h2{
+    text-align: center;
+}
+.poo ul{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color:red;
+}
+
+.form1{
+    padding-bottom: 5px;
+}
+
+.form{
+    padding: 20px;
+}
+
+.poo li{
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333;
+}
+
+.form1 label{
+    display: block;
+}
+.form1 input[type="text"], .form1 textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.form1 input[type="submit"]{
+    background-color: #333;
+    color:#fff;
+    border:none;
+}
+
+.button{
+    border: none;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+}
+
+.button:hover{
+    background: blue;
+}
